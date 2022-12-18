@@ -66,9 +66,7 @@ li {
 }
 
 .box2 {
-
     background-color: lightgreen;
-    
     height: 200px;
     flex: 2 1 auto;
 }
@@ -95,9 +93,12 @@ li {
 /* section 3 youtube video */
 
 .section-three {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: lightcoral;
     height: 800px;
-
 }
 
 iframe { 
